@@ -8,13 +8,14 @@ sudo apt install -y ssh wireguard avahi-daemon ethtool wakeonlan \
     nmon nload iftop iperf axel aria2 curl wget rsync git \
     bash-completion htop ncdu mc tmux pwgen lm-sensors most bat \
     lvm2 dosfstools rar unrar unp unzip libemail-outlook-message-perl \
-    mpack ffmpeg imagemagick yubikey-luks
+    mpack ffmpeg imagemagick yubikey-luks \
+    tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
 
 # Instalar paquetes nuevos con GUI
 sudo apt install -y handbrake vlc subtitleeditor zenity \
     transmission-gtk transmission-remote-gtk filezilla \
-    inkscape nomacs nomacs-l10n simple-scan pdfarranger \
-    yubikey-manager-qt kdeconnect
+    inkscape nomacs nomacs-l10n yubikey-manager-qt kdeconnect \
+    simple-scan pdfarranger gimagereader\
 
 # Instalar paquetes SNAP
 sudo snap install codium
